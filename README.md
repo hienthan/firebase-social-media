@@ -5,3 +5,8 @@
 - The hooks useAuthState:
 >npm install react-firebase-hooks
 - Implemented the login/logout logic.
+
+Ep 16: Go to firebase database with production mode
+install `react-hook-form yup @hookform/resolvers`
+Add the create form then connect to the firebase firestore
+* Change the firestore Rules for the read/write/update/delete permisson
