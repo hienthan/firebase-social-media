@@ -10,3 +10,7 @@ Ep 16: Go to firebase database with production mode
 install `react-hook-form yup @hookform/resolvers`
 Add the create form then connect to the firebase firestore
 * Change the firestore Rules for the read/write/update/delete permisson
+
+EP-17: getDocs, collection...
+New firestore collection for likes: User cannot like the their own post
+Prevent the like duplicate user when they re-liked n times -> delete like if unlike.
