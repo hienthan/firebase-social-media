@@ -14,3 +14,10 @@ Add the create form then connect to the firebase firestore
 EP-17: getDocs, collection...
 New firestore collection for likes: User cannot like the their own post
 Prevent the like duplicate user when they re-liked n times -> delete like if unlike.
+
+EP-18: Deploying a Firebase React App:
+npm install -g firebase-tools
+firebase login
+firebase init
+Select the Hosting: Configure files for Firebase... option (Space then Enter)
+"What do you want to use as your public directory?" `build`
